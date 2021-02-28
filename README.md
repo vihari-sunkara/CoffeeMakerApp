@@ -9,7 +9,8 @@ The following are the list of important entities which could be obvious.
 - Inventory
 - Beverage
 - Recipe
-
+## Parallel Processing of N Orders
+For the parallel processing of orders, a fixed thread pool object is created while instantiating the coffee machine object. This implementation is also tested through test methods in the driver class.
 ## Other files
 Other class files include constants file which are mostly redundant for now, but can be useful as and when new Beverages get added to our machine. 
 
